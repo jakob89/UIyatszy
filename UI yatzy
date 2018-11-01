@@ -13,4 +13,10 @@ private void VisTerning()
   private void VisMuligheder()
   {
     1stMuligheder.Items.Clear();
-    if(mitBaeger.PointToere
+    if(mitBaeger.PointEnere() > 0 ) {1stMuligheder.Items.Add("Enere");}
+    if(mitBaeger.PointToere() > 0 ) {1stMuligheder.Items.Add("Toere");}
+    if(mitBaeger.PointTreere() > 0 ) {1stMuligheder.Items.Add("Treere");}
+    if(mitBaeger.PointFirere() > 0 ) {1stMuligheder.Items.Add("Fireere");}
+    if(mitBaeger.PointFemmere() > 0 ) {1stMuligheder.Items.Add("Femmere");}
+    if(mitBaeger.PointSeksere() > 0 ) {1stMuligheder.Items.Add("Seksere");}
+  }
