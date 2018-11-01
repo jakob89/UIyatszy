@@ -1,0 +1,16 @@
+private Baeger mitBaeger = new Baeger();
+private YatzyBlok mynYatzyBlok = new YatzyBlok();
+
+private void VisTerning()
+{
+  txtTerning1.Text = Convert.ToString(mitBaeger.Terning1.Øjne);
+  txtTerning2.Text = Convert.ToString(mitBaeger.Terning2.Øjne);
+  txtTerning3.Text = Convert.ToString(mitBaeger.Terning3.Øjne);
+  txtTerning4.Text = Convert.ToString(mitBaeger.Terning4.Øjne);
+  txtTerning5.Text = Convert.ToString(mitBaeger.Terning5.Øjne);
+}  
+  
+  private void VisMuligheder()
+  {
+    1stMuligheder.Items.Clear();
+    if(mitBaeger.PointToere
